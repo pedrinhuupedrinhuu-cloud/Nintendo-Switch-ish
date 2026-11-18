@@ -1,25 +1,15 @@
-### If you enjoy my themes and extensions and want to support me you can at: https://www.paypal.me/davidkgriggs
-# Nintendo-Switch-ish
-Nintendo Switch-ish is a Theme for Playnite that emulates the Nintendo Switch UI.
+# LUNOX — Playnite Fullscreen Theme
 
-### YouTube Showcase, click to view:
-[![YouTube Showcase](https://img.youtube.com/vi/RYrVPFrHSMs/hqdefault.jpg)](https://www.youtube.com/watch?v=RYrVPFrHSMs)
+A dark, controller-first Playnite Fullscreen theme with a deep navy interface, cool cyan highlights, a crescent identity and a restrained gaming-console layout.
 
-### Screenshots:
-![](https://raw.githubusercontent.com/davidkgriggs/Nintendo-Switch-ish/main/Media/screenshot_01.jpg)
-![](https://raw.githubusercontent.com/davidkgriggs/Nintendo-Switch-ish/main/Media/screenshot_02.jpg)
-![](https://raw.githubusercontent.com/davidkgriggs/Nintendo-Switch-ish/main/Media/screenshot_03.jpg)
+## Design direction
+- ASUS ROG / Armoury Crate-inspired visual language, with an original LUNOX identity
+- Nintendo-style navigation influence kept secondary
+- Large game artwork, clear focus states and controller-friendly navigation
+- Original upstream theme functionality retained as the foundation
 
-### Plugins Supported:
-* DKG Theme Modifier
-* Extra Metadata Loader
-* Extra Metadata Fullscreen Mode Helper
-* SuccessStory
+## Installation
+This repository contains the theme source. The installable package must be built from the `source` project against the Playnite Fullscreen theme SDK/runtime files.
 
-See the Playnite Forum thread at: https://playnite.link/forum/thread-1189.html
-
-Please support the Main Playnite Project: https://www.patreon.com/playnite
-
-![DownloadCountTotal](https://img.shields.io/github/downloads/davidkgriggs/Nintendo-Switch-ish/total?label=total%20downloads&style=for-the-badge)
-![LatestVersion](https://img.shields.io/github/v/tag/davidkgriggs/Nintendo-Switch-ish?label=Latest%20version&style=for-the-badge)
-![DownloadCountLatest](https://img.shields.io/github/downloads/davidkgriggs/Nintendo-Switch-ish/latest/total?style=for-the-badge)
+## Credits
+Built as a derivative of [Nintendo-Switch-ish](https://github.com/davidkgriggs/Nintendo-Switch-ish) by David Griggs. Original upstream project and its license remain applicable.
