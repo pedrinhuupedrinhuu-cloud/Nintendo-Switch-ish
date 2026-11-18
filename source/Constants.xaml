@@ -38,13 +38,13 @@
 
     <Color x:Key="BlackColor">#FF000000</Color>
     <Color x:Key="WhiteColor">#FFFFFFFF</Color>
-    <Color x:Key="GlyphColor">#137bc1</Color>
-    <Color x:Key="GlyphLightColor">#FF93FAF7</Color>
-    <Color x:Key="SelectionLightColor">#FF93FAF7</Color>
+    <Color x:Key="GlyphColor">#FF32B8F4</Color>
+    <Color x:Key="GlyphLightColor">#FF8EDCFF</Color>
+    <Color x:Key="SelectionLightColor">#FF8EDCFF</Color>
     <Color x:Key="OverlayColor">#00000000</Color>
 
-    <Color x:Key="ControlBackgroundColor">#FF3EDCBB</Color>
-    <Color x:Key="ControlBackgroundColorDark">#FF069F7F</Color>
+    <Color x:Key="ControlBackgroundColor">#FF123A58</Color>
+    <Color x:Key="ControlBackgroundColorDark">#FF0A263D</Color>
 
     <Color x:Key="TextColor">#FFEBEBEB</Color>
     <Color x:Key="TextColorDark">#FF757575</Color>
@@ -70,18 +70,18 @@
         <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
     </Style>
 
-    <SolidColorBrush x:Key="MainBackgourndBrush" Color="#2D2D2D"/>
+    <SolidColorBrush x:Key="MainBackgourndBrush" Color="#080D18"/>
 
-    <SolidColorBrush x:Key="TopBarBackgroundBrush" Color="#2D2D2D"/>
+    <SolidColorBrush x:Key="TopBarBackgroundBrush" Color="#0B1423"/>
 
-    <SolidColorBrush x:Key="BottomBarBackgroundBrush" Color="#2D2D2D"/>
+    <SolidColorBrush x:Key="BottomBarBackgroundBrush" Color="#0B1423"/>
 
     <LinearGradientBrush x:Key="OverlayMenuBackgroundBrush" StartPoint="0.5,0" EndPoint="0.5,1" >
-        <GradientStop Color="#323232" Offset="0"/>
-        <GradientStop Color="#2D2D2D" Offset="0.5"/>
+        <GradientStop Color="#14243A" Offset="0"/>
+        <GradientStop Color="#080D18" Offset="0.5"/>
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="SelectionBrush" Color="#FF93FAF7"/>
+    <SolidColorBrush x:Key="SelectionBrush" Color="#FF32B8F4"/>
 
     <LinearGradientBrush x:Key="GameDetailsBackgroundBrush" StartPoint="0.5,0" EndPoint="0.5,0.4" >
         <GradientStop Color="#33000000" Offset="0.0"/>
@@ -89,8 +89,8 @@
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="GameDetailsOtherBrush" StartPoint="0.5,0" EndPoint="0.5,0.4" >
-        <GradientStop Color="#80505050" Offset="0.0"/>
-        <GradientStop Color="#80505050" Offset="0.8"/>
+        <GradientStop Color="#B30D1B2B" Offset="0.0"/>
+        <GradientStop Color="#E60A1422" Offset="0.8"/>
     </LinearGradientBrush>
 
     <RadialGradientBrush x:Key="OverlayDynamicBackground" >
