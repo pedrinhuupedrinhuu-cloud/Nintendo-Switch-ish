@@ -16,7 +16,7 @@
                 <ControlTemplate TargetType="ListBoxItem">
                     <ControlTemplate.Resources>
                         <Storyboard x:Key="BorderHighlight" RepeatBehavior="Forever">
-                            <ColorAnimation From="#137bc1" To="#FF93FAF7" Storyboard.TargetProperty="(ListBoxItem.BorderBrush).(SolidColorBrush.Color)" Storyboard.TargetName="MainBorder" Duration="0:0:0.55" AutoReverse="True"/>
+                            <ColorAnimation From="#FF1676A8" To="#FF8EDCFF" Storyboard.TargetProperty="(ListBoxItem.BorderBrush).(SolidColorBrush.Color)" Storyboard.TargetName="MainBorder" Duration="0:0:0.55" AutoReverse="True"/>
                         </Storyboard>
                         <Storyboard x:Key="FocusedOn">
                             <DoubleAnimation 
@@ -57,7 +57,7 @@
                                        Style="{DynamicResource TextBlockBaseStyle}" FontSize="35"
                                        HorizontalAlignment="Stretch" VerticalAlignment="Top"
                                        TextAlignment="Center" Margin="5,-7.5,5,0"
-                                       Foreground="#338ebc">
+                                       Foreground="#FF8EDCFF">
                                 </TextBlock>
                             </Border>
                         </Border>
@@ -157,7 +157,7 @@
                             <Setter Property="Focusable" Value="True" />
                             <Setter Property="Visibility" Value="Visible"/>
                             <Setter Property="Opacity" Value="1"/>
-                            <Setter Property="Background" Value="#4e4e4e" TargetName="RectangleName"/>
+                            <Setter Property="Background" Value="#FF14243A" TargetName="RectangleName"/>
                             <Setter Property="Fill" Value="#4e4e4e" TargetName="TriangleName"/>
                             <Setter Property="FontSize" Value="22" TargetName="GameName"/>
                             <Setter Property="Margin" Value="5,5,5,0" TargetName="GameName"/>
