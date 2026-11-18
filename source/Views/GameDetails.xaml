@@ -373,7 +373,7 @@
                                             <Setter Property="BorderThickness" Value="3" />
                                             <Style.Triggers>
                                                 <Trigger Property="IsKeyboardFocusWithin" Value="True">
-                                                    <Setter Property="BorderBrush" Value="#137bc1" />
+                                                    <Setter Property="BorderBrush" Value="#FF32B8F4" />
                                                 </Trigger>
                                             </Style.Triggers>
                                         </Style>
